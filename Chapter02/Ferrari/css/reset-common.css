@@ -1,0 +1,82 @@
+/* -------------------【Reset-通用】-Start ------------------- */
+
+/* 清除内外边距 */
+body, h1, h2, h3, h4, h5, h6, hr, p, i, em, /* 结构元素 */
+dl, dt, dd, ul, ol, li, /* 列表元素 */
+form, button, input, textarea, /* 表单元素 */
+th, td /* 表格元素 */ {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* 设置默认字体样式 */
+body {
+    font-family: arial, 'microsoft yahei';
+    color: black;
+}
+
+/* 取消标题加粗 */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+}
+
+/* 取消斜体 */
+i, em {
+    font-style: normal;
+}
+
+/* 重置列表元素 */
+ul, ol {
+    list-style: none;
+}
+
+/* 重置文本格式元素 */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* 清除图片下底额外高度 */
+img {
+    border: 0;
+    vertical-align: bottom;
+}
+
+/* 清除表单元素选中外边框 */
+input, textarea, button {
+    outline: none;
+}
+
+/* 左右浮动类 */
+.f-l {
+    float: left;
+}
+.f-r {
+    float: right;
+}
+
+/* 清除浮动影响 */
+.clearfix::before, .clearfix::after {
+    display: block;
+    content: "";
+    height: 0px;
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+
+/* 版心居中类 */
+/* .wr {
+    width: 1200px;
+    margin: 0px auto;
+} */
+/* --------------------【Reset-通用】-End --------------------- */
+
+/* -------------------【Reset-自定义】-Start ------------------ */
+
+/* -------------------【Reset-自定义】-End -------------------- */
+
+/* ----------------------【样式区】-Start --------------------- */
+
+/* ----------------------【样式区】-End ----------------------- */
